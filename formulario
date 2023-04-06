@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="../CSS/style.css" type="text/css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro do cliente</title>
+</head>
+<body>
+    <h1>Cadastro do cliente</h1>
+    <br/>
+    <br/>
+    <form action="">
+     
+        <label for="Nome">Nome:</label><br/>
+        <input type="text" name="Nome" id="Nome" placeholder="Digite seu nome completo"><br/>
+        <br/>
+       
+        <label for="Nasc">Data de Nascimento:</label><br/>
+        <input type="Date" name="Nasc" id="Nasc" placeholder="Digite sua data de nascimento"><br/>
+        <br/>
+       
+        <label for="mail">Email:</label><br/>
+        <input type="email" name="mail" id="mail" placeholder="Digite seu e-mail">
+        <br/>
+       
+        <label for="end">Endereço:</label><br/>
+        <input type="text" name="end" id="end" placeholder="Digite seu endereço">
+        <br/>
+      
+        <label for="estado">Estado:</label><br/>
+        <select name="estado" id="estado">
+            <option value="SP">São Paulo</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="MG">Mnas Gerais</option>
+            <option value="BA">Bahia</option>
+        </select><br/>
+        <br/>   
+        <label for="cpf">CPF:</label><br/>
+        <input type="number" name="cpf" id="cpf" placeholder="Digite seu CPF"><br/>    
+        <br/>
+
+        <label for="senha">Senha:</label><br/>
+        <input type="password" name="senha" id="senha" ><br/>
+        
+        
+        <br/>
+        
+        <br/>
+
+        <input type="button" value="Enviar">
+    </form>
+</body>
+<footer>
+    <br/><br/><br/><br/><br/><br/><br/><br/>
+    <p><a href="index.html" rel="prev" target="_self">Home</a></p>
+</footer>
+</html>
