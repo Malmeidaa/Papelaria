@@ -1,0 +1,37 @@
+html{
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+Table{
+    
+    text-align: center;
+    align-items: center;
+    border: 5px solid black;
+}
+tr,td, th{
+    
+    border: 2px solid black ;
+    font-size:x-large;
+    font-style: italic;
+    color: rebeccapurple;
+       
+}
+
+    
+
+body{
+    
+    background-color: pink;
+    color: rgb(97, 17, 134);
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    
+
+}
